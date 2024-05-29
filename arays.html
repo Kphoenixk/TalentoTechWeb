@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+
+<script>
+   var estudiantes = ["Juan", "Maria", "Carolina"]
+     var notas = [3.5, 4.2, 2.8]
+     var frutas = ["Manzana", "Pera", "Banano"]
+     document.write(estudiantes[2])
+     document.write("<br>")
+     document.write("La logintud del array es: " + estudiantes.length)
+
+
+
+     var clientes = ["Luis", "Roberto", "Zenon", "Camila"]
+   clientes.push("Marcela") // Añado un elemento al final
+   document.write(clientes + "<br>")
+    document.write("<br>")
+
+
+    clientes.pop() // Elimino el ultimo elemento
+   (indice, cantidad)
+  clientes.splice(0, 1) //Elimino un elemento en una posicion especifica
+  document.write(clientes + "<br>")
+  document.write("<br>")
+
+  var notas = [3.5, 2.1, 5, 4.2, 4.8]
+ var acumulado=0
+ for(var i=0; i<notas.length; i++){ 
+     acumulado=acumulado + notas[i] // 0+3.5 => 3.5+2.1 => 5.6+5 => 10.6+4.2 => 14.8+4.8 => 19.6
+ }
+ var promedio = acumulado/notas.length // 19.6/5
+ document.write("El promedio es: " + promedio)
+
+
+
+ var cantidadInvitados = parseInt(prompt("Ingrese la cantidad de personas a invitar: "))
+var invitados = []
+ for(var i=0; i<cantidadInvitados; i++){ // Se hace 5 veces
+     nombre = prompt("Ingrese el nombre del invitado: ")
+     invitados.push(nombre)
+ }
+ document.write("Los invitados son: " + invitados + "<br>")
+ document.write("La cantidad de invitados es: " + invitados.length)
+
+
+
+
+
+</script>
+
+
+
+
+
+</html>
