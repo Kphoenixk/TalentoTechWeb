@@ -1,0 +1,93 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div>
+        <select name="" id="tema" onchange="cambiarTema()">
+            <option value="light">Claro</option>
+            <option value="dark">Oscuro</option>
+            <option value="crazy">Loco</option>
+        </select>
+    </div>  
+
+        <div>
+            <img  class="imagen1" src="https://ew.com/thmb/SpqVHh6pwaeIEqFO9hmVtMCiS4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Spotify-089b80c169d44fcfa110aebc6801289f.jpg" alt="">
+        </div>
+    
+
+
+        <style>
+            .imagen1{
+                width: 35%;
+                display: block;
+                border: 5px solid rgb(5, 235, 5);
+                border-radius: 30px;
+                box-shadow: 5px 1px 20px rgb(129, 228, 223);
+                margin-left: auto;
+                margin-right: auto;
+        
+    
+            }
+        </style>
+    
+    <label for="">Tamano</label>
+    <select name="" id= "size">
+        <option value="100px">pequeno</option>
+        <option value="200px">mediano</option>
+        <option value="300px">grande</option>
+    </select>
+
+
+
+
+</body>
+
+<script>
+
+
+function cambiarTema(){
+        var body = document.getElementById("body")
+        var tema = document.getElementById("tema").value
+        var fondo=""
+        var letra=""
+        if(tema == "light"){ 
+            fondo= "white"
+            letra= "black"
+        }
+        else if (tema == "dark"){ 
+            fondo= "black"
+            letra= "white"
+        }
+        else if (tema == "crazy"){ 
+            fondo= "tomato"
+            letra= "yellow"
+        }
+
+        body.style.backgroundColor=fondo
+        body.style.color=letra
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</html>

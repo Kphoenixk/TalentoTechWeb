@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+//function saludar(nombre, apellido) {
+ //   document.write ("holass"+""+nombre+""+apellido )
+//}
+
+
+function suma(num1, num2) {
+  return num1+num2
+}
+
+function resta(num1, num2) {
+  return num1-num2
+}
+
+function multiplicacion (num1, num2) {
+  return num1*num2
+}
+
+function division(num1, num2) {
+  return num1/num2
+}
+
+var n1 =parseInt(prompt ("ingresa numero :"))
+var n2 =parseInt(prompt ("ingresa numero :"))
+var operacion =prompt ("ingresa la operacion")
+var resultado=0
+
+switch (operacion){
+  case "suma":
+  resultado =suma(n1, n2)
+  break;
+  case "resta":
+  resultado =resta(n1, n2)
+  break;
+  case "multiplicacion":
+  resultado =multiplicacion(n1, n2)
+  break;
+  case "division":
+  resultado =division(n1, n2)
+  break;
+
+}
+
+document.write ("el resultado de la oprecion es:"+ operacion+  "es"+ resultado )
+
+
+
+;
+
+</script>
+
+</html>
