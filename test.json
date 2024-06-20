@@ -1,0 +1,100 @@
+[
+    { 
+
+    "Nombre" : "Andres",
+    "Apellidos":"Garcia",
+    "edad":"35",
+    "mascotas": [
+        {
+        "Nombre": "Horus",
+        "tipo": "perro"
+    },
+
+    {
+        "Nombre": "Lucifer",
+        "tipo": "gato"
+    }
+    
+    ]
+},
+{ 
+
+"Nombre" : "Catalina",
+"Apellidos":"Vargas",
+"edad":"25",
+"mascotas": [
+    {
+    "Nombre": "cora",
+    "tipo": "gato"
+},
+
+{
+    "Nombre": "cora2",
+    "tipo": "gato"
+}
+
+]
+},
+
+{ 
+
+"Nombre" : "Ingrid",
+"Apellidos":"Vargas",
+"edad":"43",
+"mascotas": [
+    {
+    "Nombre": "lulu",
+    "tipo": "perro"
+},
+
+{
+    "Nombre": "Lulu2",
+    "tipo": "gato"
+}
+
+]
+},
+{ 
+
+"Nombre" : "Karen",
+"Apellidos":"Murillo",
+"edad":"33",
+"mascotas": [
+    {
+    "Nombre": "Horus2",
+    "tipo": "perro"
+},
+
+{
+    "Nombre": "Lucifer",
+    "tipo": "gato"
+}
+
+]
+},
+{ 
+
+"Nombre" : "Martha",
+"Apellidos":"Vargas",
+"edad":"49",
+"mascotas": [
+    {
+    "Nombre": "Mia",
+    "tipo": "perro"
+},
+
+{
+    "Nombre": "Gatica",
+    "tipo": "gato"
+}
+
+]
+}
+
+
+
+
+
+
+
+]
